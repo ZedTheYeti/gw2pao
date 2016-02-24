@@ -210,7 +210,23 @@ namespace GW2PAO.API.Providers
                 new ObjectiveNames() { ID = (int)WvWObjectiveID.GB_Orchard, Cardinal = "", Full = "Orchard Overlook", Short = "Orchard" },
                 new ObjectiveNames() { ID = (int)WvWObjectiveID.GB_Estate, Cardinal = "", Full = "Bauer's Estate", Short = "Estate" },
                 new ObjectiveNames() { ID = (int)WvWObjectiveID.GB_Hollow, Cardinal = "", Full = "Battle's Hollow", Short = "Hollow" },
-                new ObjectiveNames() { ID = (int)WvWObjectiveID.GB_Temple, Cardinal = "", Full = "Temple of Lost Prayers", Short = "Temple" }
+                new ObjectiveNames() { ID = (int)WvWObjectiveID.GB_Temple, Cardinal = "", Full = "Temple of Lost Prayers", Short = "Temple" },
+
+                new ObjectiveNames() { ID = (int)WvWObjectiveID.BL_Keep_N, Cardinal = "N", Full = "Garrison", Short = "Keep"},
+                new ObjectiveNames() { ID = (int)WvWObjectiveID.BL_Keep_E,  Cardinal = "E", Full = "Air Keep", Short = "Keep"},
+                new ObjectiveNames() { ID = (int)WvWObjectiveID.BL_Keep_W, Cardinal = "W", Full = "Fire Keep", Short = "Keep"},
+
+                new ObjectiveNames() { ID = (int)WvWObjectiveID.BL_Tower_NE, Cardinal = "NE", Full = "", Short = "Tower"},
+                new ObjectiveNames() { ID = (int)WvWObjectiveID.BL_Tower_NW, Cardinal = "NW", Full = "", Short = "Tower"},
+                new ObjectiveNames() { ID = (int)WvWObjectiveID.BL_Tower_SE, Cardinal = "SE", Full = "", Short = "Tower"},
+                new ObjectiveNames() { ID = (int)WvWObjectiveID.BL_Tower_SW, Cardinal = "SW", Full = "", Short = "Tower"},
+
+                new ObjectiveNames() { ID = (int)WvWObjectiveID.BL_Camp_NE, Cardinal = "NE", Full = "", Short = "Camp"},
+                new ObjectiveNames() { ID = (int)WvWObjectiveID.BL_Camp_N, Cardinal = "N", Full = "", Short = "Camp"},
+                new ObjectiveNames() { ID = (int)WvWObjectiveID.BL_Camp_NW, Cardinal = "NW", Full = "", Short = "Camp"},
+                new ObjectiveNames() { ID = (int)WvWObjectiveID.BL_Camp_SE, Cardinal = "SE", Full = "", Short = "Camp"},
+                new ObjectiveNames() { ID = (int)WvWObjectiveID.BL_Camp_S, Cardinal = "S", Full = "", Short = "Camp"},
+                new ObjectiveNames() { ID = (int)WvWObjectiveID.BL_Camp_SW, Cardinal = "SW", Full = "", Short = "Camp"}
             };
 
             // Spanish

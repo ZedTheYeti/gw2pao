@@ -93,6 +93,23 @@ namespace GW2PAO.API.Data.Enums
         GB_Orchard          = 73,
         GB_Estate           = 74,
         GB_Hollow           = 75,
-        GB_Temple           = 76
+        GB_Temple           = 76,
+
+        // Desert Borderlands objective IDs
+        BL_Tower_NE = 104,
+        BL_Tower_NW = 102,
+        BL_Tower_SE = 105,
+        BL_Tower_SW = 110,
+
+        BL_Keep_N = 113, // Garrison
+        BL_Keep_E = 114, // Air Keep
+        BL_Keep_W = 106, // Fire Keep
+
+        BL_Camp_NE = 109,
+        BL_Camp_N = 99,
+        BL_Camp_NW = 115,
+        BL_Camp_SE = 100,
+        BL_Camp_S = 116,
+        BL_Camp_SW = 101
     }
 }
