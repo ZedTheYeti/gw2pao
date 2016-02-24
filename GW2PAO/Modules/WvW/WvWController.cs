@@ -471,7 +471,7 @@ namespace GW2PAO.Modules.WvW
                             foreach (var objective in this.AllObjectives)
                             {
                                 objective.RefreshForMatchReset(this.Worlds);
-                                var latestData = latestObjectivesData.First(obj => obj.ID == objective.ID);
+                                var latestData = latestObjectivesData.First(obj => obj.ID == objective.ID && obj.Map == objective.Map);
                                 objective.ModelData.MatchId = this.MatchID;
                                 objective.PrevWorldOwner = latestData.WorldOwner;
                                 objective.WorldOwner = latestData.WorldOwner;
@@ -535,7 +535,7 @@ namespace GW2PAO.Modules.WvW
             {
                 foreach (var objective in this.AllObjectives)
                 {
-                    var latestData = latestObjectivesData.FirstOrDefault(obj => obj.ID == objective.ID);
+                    var latestData = latestObjectivesData.FirstOrDefault(obj => obj.ID == objective.ID && obj.Map == objective.Map);
                     if (latestData != null)
                     {
                         // Refresh owner information
