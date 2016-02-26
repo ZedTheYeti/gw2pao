@@ -4,7 +4,7 @@ A stand-alone .NET/WPF informational overlay utility package for Guild Wars 2.
 
 GitHub Pages Site: http://samhurne.github.io/gw2pao/
 
-### **NOTICE:** Development is now on HOLD. I have moved on from this project for now, although I may return to it in the future.
+#### **NOTICE:** As SamHurne (the original author) has stepped away from this project, I've forked it and added 64bit support and updated the WvW code to support the Desert Borderlands so it works elsewhere besides EBG. I'll probably maintain this for a bit and perhaps add a few features.
 
 # Features
 ### Events Tracker
